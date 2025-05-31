@@ -47,7 +47,7 @@
             <div class="form-row">
              <div class="form-group" style="margin-left:270px; margin-top: 200px;"> 
                 <h1>Contact Us</h1>
-                <p class="lead">&nbsp;<i class="fas fa-mobile"></i>&nbsp; (+91) 776 09 13 134</p>
+                <p class="lead">&nbsp;<i class="fas fa-mobile"></i>&nbsp; (+91) 9383728022</p>
                 <p class="lead">&nbsp;<i class="fas fa-at"></i>&nbsp; admin@gmail.com</p>
               </div>
               <div class="form-group" >

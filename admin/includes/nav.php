@@ -27,9 +27,9 @@
           <a class="dropdown-item" href="companiesapplied.php">Companies Applied</a>
           <a class="dropdown-item" href="selectedstudents.php">Selected Students</a>
       </li>
-      <li class="nav-item" id="help">
+      <!-- <li class="nav-item" id="help">
         <a class="nav-link" href="../dark/admin/index.php"><span class="badge badge-dark">Dark Theme</span></a>
-      </li>
+      </li> -->
     </ul>
       <form class="form-inline my-2 my-lg-0">
           <li class="nav-item dropdown" style="list-style: none;">

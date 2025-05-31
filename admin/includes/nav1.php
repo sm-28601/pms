@@ -16,9 +16,9 @@
       <li class="nav-item" id="home">
         <a class="nav-link" href="index.php">Get Back<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item" id="help">
+      <!-- <li class="nav-item" id="help">
         <a class="nav-link" href="../dark/admin/addadmin.php"><span class="badge badge-dark">Dark Theme</span></a>
-      </li>
+      </li> -->
     </ul>
       <form class="form-inline my-2 my-lg-0">
           <li class="nav-item dropdown">

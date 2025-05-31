@@ -47,9 +47,8 @@ CREATE TABLE IF NOT EXISTS `adminlogin` (
 --
 
 INSERT INTO `adminlogin` (`id`, `uname`, `pwd`, `fname`, `lname`, `email`, `phone`) VALUES
-(1, 'admin1', '123', 'Girish', 'GV', 'girishgv21@gmail.com', '9742492316'),
-(2, 'vp', '12345', 'Varun', 'VP', 'vp@gmail.com', '890863432'),
-(5, 'admin2', '12345', 'Sharath', 'GV', 'gvs@gmail.com', '9876765678');
+(1, 'PCO', '123', 'Girish', 'GV', 'girishgv21@gmail.com', '9742492312'),
+
 
 -- --------------------------------------------------------
 
@@ -72,16 +71,18 @@ CREATE TABLE IF NOT EXISTS `applied` (
 --
 
 INSERT INTO `applied` (`id`, `name`, `company`, `status`, `chances`) VALUES
-(1, 'Mohith', 'Infosys', 'Attended', NULL),
-(2, 'Mohith', 'TCS', 'Unknown', NULL),
+
+(1, 'Rohit', 'Infosys', 'Attended', NULL),
+(2, 'Rohit', 'TCS', 'Unknown', NULL),
 (3, 'Girish', 'Mobinius', 'Unknown', NULL),
 (4, 'Girish', 'Infosys', 'Selected', NULL),
-(5, 'Naveen', 'Invensis Technologies Private Limited', 'Unknown', NULL),
-(6, 'Vinay ', 'Transact Bpo Services', 'Unknown', NULL),
-(7, 'Vinay ', 'Qbix Intergrated Services', 'Unknown', NULL),
-(9, 'Bharath', 'Invensis Technologies Private Limited', 'Unknown', NULL),
+(5, 'Amit', 'Invensis Technologies Private Limited', 'Unknown', NULL),
+(6, 'Suresh', 'Transact Bpo Services', 'Unknown', NULL),
+(7, 'Suresh', 'Qbix Intergrated Services', 'Unknown', NULL),
+(9, 'Karan', 'Invensis Technologies Private Limited', 'Unknown', NULL),
 (12, 'Girish', 'Mobinius', 'Unknown', NULL),
 (13, 'Girish', 'Cognizant Technology Solutions', 'Unknown', NULL);
+
 
 -- --------------------------------------------------------
 
@@ -142,12 +143,14 @@ CREATE TABLE IF NOT EXISTS `feed` (
 --
 
 INSERT INTO `feed` (`id`, `user`, `message`, `date`, `time`) VALUES
-(2, 'admin1', 'Hello everybody this is the demo text on your feed youll receive further updates in the same way!!', '2019-05-05', '19:14:39'),
-(4, 'vp', 'Infosys company has been added interested students can apply !!\r\n-Admin', '2019-05-05', '20:04:42'),
-(7, 'admin1', 'More IT and BPO companies added! -Admin', '2019-05-07', '12:31:27'),
-(5, 'admin1', 'Do not post unnecessary comments!!', '2019-05-05', '22:48:06'),
-(6, 'admin1', '4 more companies added checkout!!!\r\n-Admin', '2019-05-05', '22:50:41'),
-(8, 'admin1', 'Infosys interview is being held tomorrow at 10:00 AM in college campus', '2019-05-08', '11:10:10');
+
+(1, 'Girish', 'Welcome to the Placement Management System! Stay tuned for the latest updates.', '2025-05-09', '10:00:00'),
+(2, 'Girish', 'Infosys has been added to the list of participating companies. Interested students can apply now.', '2025-05-09', '10:01:30'),
+(3, 'Girish', 'Multiple IT and BPO companies have been onboarded. Check the opportunities section.', '2025-05-09', '10:02:45'),
+(4, 'Girish', 'Please avoid posting irrelevant comments in the system feed.', '2025-05-09', '10:03:15'),
+(5, 'Girish', '4 new companies added today! Explore and apply now.', '2025-05-09', '10:04:10'),
+(6, 'Girish', 'Infosys interview will be held tomorrow at 10:00 AM on campus. Be prepared and arrive on time.', '2025-05-09', '10:05:30');
+
 
 -- --------------------------------------------------------
 
